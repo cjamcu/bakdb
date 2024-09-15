@@ -5,3 +5,4 @@ pb_data
 /.builds/
 
 /.vscode/
+ui/dist/

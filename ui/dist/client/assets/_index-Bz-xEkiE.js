@@ -1,1 +1,0 @@
-import{j as r}from"./router-0uN5aety.js";import{r as t}from"./requireAuth-BROCRZK-.js";import{r as e}from"./responses-BDgPukry.js";import"./pocketbase-BwiBgDV-.js";const m=()=>[{title:"Backup Tasks"}],u=async({request:s})=>(await t(),e("/tasks"));function c(){return r.jsx(r.Fragment,{})}export{u as clientLoader,c as default,m as meta};

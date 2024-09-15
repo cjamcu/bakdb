@@ -1,0 +1,1 @@
+import{p as r}from"./pocketbase-BwiBgDV-.js";import{r as e}from"./responses-BDgPukry.js";async function c(){try{await r.collection("users").authRefresh()}catch{throw localStorage.removeItem("pocketbase_auth"),e("/login")}}export{c as r};

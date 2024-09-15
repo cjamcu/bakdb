@@ -1,0 +1,14 @@
+{
+  "name": "bakdb-go",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:pb" : "CGO_ENABLED=0 go build",
+    "build:ui": "cd ui && pnpm  build",
+    "build": "pnpm run build:ui && pnpm run build:pb"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

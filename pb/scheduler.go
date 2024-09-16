@@ -54,8 +54,6 @@ func SetupScheduler(app *pocketbase.PocketBase, scheduler *cron.Cron) {
 			scheduler.Start()
 
 		}
-
-		fmt.Printf("Number of tasks scheduled: %d\n", len(tasks))
 		scheduler.Add("delete_old_backups", "0 0 * * *", func() {
 			if err := backup.DeleteOldBackups(app); err != nil {
 				log.Printf("Error deleting old backups: %v", err)

@@ -1,7 +1,0 @@
-pb_data
-./bakdb
-
-# goreleaser builds folder
-/.builds/
-
-/.vscode/
